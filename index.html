@@ -5,23 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Axiora - Coming Soon</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <div class="content">
-            <h1 class="logo">Axiora</h1>
-            <p class="tagline">Something amazing is coming</p>
+        <header class="header">
+            <div class="logo-section">
+                <img src="logo.jpg" alt="Axiora Logo" class="logo-image">
+                <h1 class="logo">Axiora</h1>
+            </div>
+        </header>
+
+        <main class="main-content">
             <div class="coming-soon">
                 <h2>Coming Soon</h2>
-                <p>We're working hard to bring you something extraordinary. Stay tuned!</p>
+                <p>We're building something extraordinary. Stay tuned for the launch.</p>
             </div>
-            <div class="notify-section">
-                <input type="email" placeholder="Enter your email for updates" class="email-input">
-                <button class="notify-btn">Notify Me</button>
+        </main>
+
+        <footer class="footer">
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/company/axiorastro" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <img src="LinkedIn_logo_initials.png" alt="LinkedIn" class="contact-icon">
+                    LinkedIn
+                </a>
+                <a href="mailto:h.m.elnemr@gmail.com" class="contact-link">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                    </svg>
+                    Email
+                </a>
             </div>
-        </div>
-        <div class="background-animation"></div>
+        </footer>
     </div>
 </body>
 </html>
