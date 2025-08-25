@@ -38,16 +38,15 @@ body {
 }
 
 .logo-image {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #92B4F4;
     box-shadow: 0 4px 20px rgba(10, 54, 157, 0.3);
 }
 
 .logo {
-    font-size: 3.5rem;
+    font-size: 4.2rem;
     font-weight: 700;
     color: #CFDEE7;
     letter-spacing: -1px;
@@ -150,12 +149,12 @@ body {
     }
     
     .logo {
-        font-size: 2.8rem;
+        font-size: 3.4rem;
     }
     
     .logo-image {
-        width: 60px;
-        height: 60px;
+        width: 75px;
+        height: 75px;
     }
     
     .coming-soon {
@@ -189,12 +188,12 @@ body {
     }
     
     .logo {
-        font-size: 2.2rem;
+        font-size: 2.8rem;
     }
     
     .logo-image {
-        width: 50px;
-        height: 50px;
+        width: 65px;
+        height: 65px;
     }
     
     .coming-soon {
